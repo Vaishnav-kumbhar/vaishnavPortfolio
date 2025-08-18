@@ -17,7 +17,7 @@ export default function Resume() {
 
           {/* Download Button with SVG */}
           <a
-            href="https://drive.google.com/file/d/1coVudAIWPtQEPKxaX78sA50wSOegWGYL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iieQtA44yU8CJRaUhZaWUnfxhjfS5n4Q/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-500 text-white font-medium rounded-lg shadow hover:bg-blue-600 transition-colors"
