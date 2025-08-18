@@ -46,11 +46,11 @@ export default function Experience() {
         <h3 className="text-xl font-semibold">
           Software Developer Intern + Probation
         </h3>
-        <p>AB&Kalp Pvt. Ltd | May 2024 – Jan 2025</p>
+        <p>AB&Kalp Pvt. Ltd | May 2024 – Feb 2025</p>
         <ul className="list-disc ml-6 mt-2 space-y-2">
           <li>
-            Independently developed multiple projects including interactive
-            games and web applications using <b>React</b> and <b>MySQL</b>.
+            Independently developed <b>8+ interactive games</b> and web
+            applications using <b>React</b> and <b>MySQL</b>.
           </li>
           <li>
             Integrated <b>Razorpay</b> for payment systems and designed
@@ -61,9 +61,8 @@ export default function Experience() {
             components.
           </li>
           <li>
-            Worked on <b>end-to-end development</b> with guidance from seniors
-            on approaches and bug fixing, but handled the complete coding
-            independently.
+            Worked on <b>end-to-end development</b> with guidance from seniors,
+            but handled complete coding independently.
           </li>
           <li>
             Strengthened skills in <b>frontend (React, Tailwind CSS)</b> and{" "}
