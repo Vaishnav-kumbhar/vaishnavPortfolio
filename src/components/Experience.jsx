@@ -6,11 +6,9 @@ export default function Experience() {
       {/* Kloudeva Experience */}
       <div className="p-6 mb-6 bg-white dark:bg-gray-700 rounded-lg shadow">
         <h3 className="text-xl font-semibold">
-          Full Stack Developer (Sole Engineer)
+          Software Developer (Sole Engineer)
         </h3>
-        <p className="text-gray-500">
-          Kloudeva LLC Pvt. Ltd | Feb 2025 – Aug 2025
-        </p>
+        <p>Kloudeva LLC Pvt. Ltd | Feb 2025 – Aug 2025</p>
         <ul className="list-disc ml-6 mt-2 space-y-2">
           <li>
             Worked as the <b>only engineer</b> in the company, fully responsible
@@ -48,7 +46,7 @@ export default function Experience() {
         <h3 className="text-xl font-semibold">
           Software Developer Intern + Probation
         </h3>
-        <p className="text-gray-500">AB&Kalp Pvt. Ltd | May 2024 – Jan 2025</p>
+        <p>AB&Kalp Pvt. Ltd | May 2024 – Jan 2025</p>
         <ul className="list-disc ml-6 mt-2 space-y-2">
           <li>
             Independently developed multiple projects including interactive

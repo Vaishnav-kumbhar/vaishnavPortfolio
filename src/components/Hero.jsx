@@ -5,23 +5,23 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-6 bg-gray-50 dark:bg-gray-900"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-6 bg-gray-50 dark:bg-gray-900"
     >
       {/* Profile Image */}
       <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-10">
         <img
           src={profilePic}
           alt="Vaishnav Kumbhar"
-          className="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-lg object-cover mx-auto"
+          className="w-36 h-36 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-full shadow-lg object-cover mx-auto"
         />
       </div>
 
       {/* Text Content */}
-      <div className="max-w-xl">
-        <h2 className="text-4xl md:text-6xl font-bold">
+      <div className="max-w-xl flex flex-col justify-center">
+        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold">
           Hi, I'm <span className="text-blue-500">Vaishnav Kumbhar</span>
         </h2>
-        <p className="mt-4 text-lg md:text-xl text-gray-700 dark:text-gray-300">
+        <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
           A passionate <b>Full Stack Developer</b> specializing in modern web
           applications and scalable solutions. Skilled in{" "}
           <b>React, Node.js, PHP, MySQL, MongoDB, and Express</b>, I enjoy
