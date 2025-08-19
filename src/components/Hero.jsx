@@ -43,7 +43,7 @@ export default function Hero() {
             📩 Contact Me
           </Link>
           <a
-            href="https://drive.google.com/file/d/1coVudAIWPtQEPKxaX78sA50wSOegWGYL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iieQtA44yU8CJRaUhZaWUnfxhjfS5n4Q/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 border rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
