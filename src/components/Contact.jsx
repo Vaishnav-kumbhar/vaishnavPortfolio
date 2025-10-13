@@ -21,7 +21,7 @@ export default function Contact() {
 
         {/* Phone */}
         <a
-          href="tel:+91XXXXXXXXXX" // replace XXXXXXXXXX with your actual number
+          href="tel:+91XXXXXXXXXX"
           className="text-blue-500 hover:underline text-lg"
         >
           +91-7489122806

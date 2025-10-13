@@ -4,8 +4,8 @@ export default function About() {
       <h2 className="text-3xl font-bold mb-6">About Me</h2>
 
       <p className="text-lg leading-relaxed">
-        I'm <b>Vaishnav Kumbhar</b>, a passionate Full Stack Developer with a
-        BCA from <b>RITEE College of Management, Raipur</b>. I specialize in
+        I'm <b>Vaishnav Kumbhar</b>, a passionate Software Developer with a BCA
+        from <b>RITEE College of Management, Raipur</b>. I specialize in
         building scalable web applications, interactive games, and delivering
         end-to-end solutions with modern technologies.
       </p>
@@ -21,12 +21,12 @@ export default function About() {
       </p>
 
       <p className="text-lg leading-relaxed mt-4">
-        In <b>February 2025</b>, I joined <b>Kloudeva LLC Pvt. Ltd</b> as a Full
-        Stack Developer, where I worked as the <b>sole engineer</b>. I was fully
-        responsible for designing, developing, and deploying complete full-stack
-        projects. From frontend UI/UX development to backend APIs and database
-        design, I independently managed the entire product lifecycle until I
-        completed my tenure in <b>August 2025</b>.
+        In <b>February 2025</b>, I joined <b>Kloudeva LLC Pvt. Ltd</b> as a
+        Software Developer, where I worked as the <b>sole engineer</b>. I was
+        fully responsible for designing, developing, and deploying complete
+        full-stack projects. From frontend UI/UX development to backend APIs and
+        database design, I independently managed the entire product lifecycle
+        until I completed my tenure in <b>October 2025</b>.
       </p>
 
       <p className="text-lg leading-relaxed mt-4">

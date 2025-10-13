@@ -22,10 +22,10 @@ export default function Hero() {
           Hi, I'm <span className="text-blue-500">Vaishnav Kumbhar</span>
         </h2>
         <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
-          A passionate <b>Full Stack Developer</b> specializing in modern web
+          A passionate <b>Software Developer</b> specializing in modern web
           applications and scalable solutions. Skilled in{" "}
-          <b>React, Node.js, PHP, MySQL, MongoDB, and Express</b>, I enjoy
-          building impactful products that solve real-world problems.
+          <b>React, Next.js, Node.js, PHP, MySQL, MongoDB, and Express</b>, I
+          enjoy building impactful products that solve real-world problems.
         </p>
 
         {/* Action Buttons */}
@@ -43,7 +43,7 @@ export default function Hero() {
             📩 Contact Me
           </Link>
           <a
-            href="https://drive.google.com/file/d/1DCFbNkponS3Vxx5MHfJNp5tScMWtRoIH/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jBn6gC7ipBpz3PtuUtLOEhVZ9NUxlQpI/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 border rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
