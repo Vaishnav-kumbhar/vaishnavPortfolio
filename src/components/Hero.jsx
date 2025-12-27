@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-6 relative overflow-hidden"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left px-4 sm:px-6 py-20 md:py-0 relative overflow-hidden"
       style={{
         background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)"
       }}
@@ -18,13 +18,13 @@ export default function Hero() {
       </div>
 
       {/* Profile Image */}
-      <div className="flex-shrink-0 mt-16 mb-8 md:mt-0 md:mb-0 md:mr-16 relative z-10 animate-fade-in-left">
+      <div className="flex-shrink-0 mt-4 mb-6 md:mt-0 md:mb-0 md:mr-16 relative z-10 animate-fade-in-left">
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full blur-xl opacity-50 animate-pulse-glow"></div>
           <img
             src={profilePic}
             alt="Vaishnav Kumbhar"
-            className="relative w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-full shadow-2xl object-cover mx-auto ring-4 ring-white/20 animate-float"
+            className="relative w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full shadow-2xl object-cover mx-auto ring-4 ring-white/20 animate-float"
           />
         </div>
       </div>
@@ -37,16 +37,16 @@ export default function Hero() {
           </span>
         </div>
         
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
+        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
           Hi, I'm{" "}
-          <span className="gradient-text">Vaishnav Kumbhar</span>
+          <span className="gradient-text block sm:inline">Vaishnav Kumbhar</span>
         </h1>
         
         <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           Full Stack Developer
         </h2>
         
-        <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-400 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+        <p className="mt-4 sm:mt-6 text-sm sm:text-lg md:text-xl text-gray-400 leading-relaxed animate-fade-in-up px-2 sm:px-0" style={{ animationDelay: "0.3s" }}>
           A passionate <span className="text-violet-400 font-semibold">Software Developer</span> specializing in modern web
           applications and scalable solutions. Skilled in{" "}
           <span className="text-fuchsia-400 font-semibold">React, Next.js, Node.js, PHP, MySQL, MongoDB, and Express</span>, I
@@ -87,9 +87,9 @@ export default function Hero() {
         </div>
 
         {/* Tech Stack Icons */}
-        <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-          <div className="flex items-center gap-3 px-4 py-2 bg-white/5 rounded-xl border border-white/10">
-            <span className="text-gray-400 text-sm">Tech Stack:</span>
+        <div className="mt-6 sm:mt-8 flex flex-wrap gap-4 justify-center md:justify-start animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 bg-white/5 rounded-xl border border-white/10">
+            <span className="text-gray-400 text-xs sm:text-sm hidden sm:inline">Tech Stack:</span>
             {/* React */}
             <div className="w-8 h-8 flex items-center justify-center text-cyan-400 hover:scale-110 transition-transform" title="React">
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
