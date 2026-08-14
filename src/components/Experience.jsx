@@ -20,7 +20,9 @@ export default function Experience() {
                   · {exp.company}
                 </span>
               </h3>
-              <p className="mt-0.5 text-xs text-zinc-500">{exp.location}</p>
+              {exp.location && (
+                <p className="mt-0.5 text-xs text-zinc-500">{exp.location}</p>
+              )}
               <ul className="mt-3 space-y-2 text-sm leading-relaxed text-zinc-400 list-disc pl-4 marker:text-zinc-700">
                 {exp.highlights.map((highlight) => (
                   <li key={highlight}>{highlight}</li>

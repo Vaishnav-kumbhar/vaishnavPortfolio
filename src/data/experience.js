@@ -1,6 +1,17 @@
 export const EXPERIENCES = [
   {
     role: "Software Engineer",
+    company: "Setupfx Softech OPC Pvt. Ltd",
+    period: "Nov 2025 — Present",
+    highlights: [
+      "Building forex trading platforms end to end — from trading UI to backend services",
+      "Designing backend APIs with Python and FastAPI, backed by PostgreSQL",
+      "Deploying and managing infrastructure on AWS",
+    ],
+    stack: ["Python", "FastAPI", "PostgreSQL", "AWS", "React"],
+  },
+  {
+    role: "Software Engineer",
     company: "Kloudeva LLC",
     location: "Remote — Uzbekistan",
     period: "Feb 2025 — Oct 2025",

@@ -18,6 +18,11 @@ export default function About() {
           every layer of a product and to communicate directly with
           stakeholders, not just tickets.
         </p>
+        <p>
+          Since November 2025 I've been at Setupfx Softech, building forex
+          trading platforms — Python and FastAPI services on PostgreSQL,
+          running on AWS.
+        </p>
       </div>
     </Section>
   );

@@ -13,14 +13,14 @@ export const SKILL_GROUPS = [
   },
   {
     title: "Backend",
-    items: ["Node.js", "Express", "PHP"],
+    items: ["Node.js", "Express", "PHP", "Python", "FastAPI"],
   },
   {
     title: "Databases",
-    items: ["MySQL", "MongoDB"],
+    items: ["MySQL", "MongoDB", "PostgreSQL"],
   },
   {
     title: "Tools",
-    items: ["Git", "Docker", "WordPress", "Shadcn UI", "REST APIs"],
+    items: ["Git", "Docker", "AWS", "WordPress", "Shadcn UI", "REST APIs"],
   },
 ];

@@ -49,10 +49,10 @@ export default function Hero() {
       </p>
 
       <p className="mt-8 leading-relaxed text-zinc-400">
-        I build web products end to end — from Sanskrit learning games to
-        company websites shipped solo. Most recently I was the only engineer at
-        Kloudeva LLC, responsible for everything from architecture to
-        deployment. I work mainly with React, Next.js, Node.js, PHP, MySQL, and
+        I build web products end to end — currently forex trading platforms at
+        Setupfx Softech. Before that: Sanskrit learning games and company
+        websites shipped solo as the only engineer at Kloudeva LLC. I work
+        mainly with React, Node.js, Python, FastAPI, PostgreSQL, MySQL, and
         MongoDB.
       </p>
 
