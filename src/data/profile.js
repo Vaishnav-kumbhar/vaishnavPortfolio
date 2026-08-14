@@ -6,7 +6,7 @@ export const PROFILE = {
   initials: "VK",
   role: "Full-stack developer",
   location: "Raipur, India",
-  availability: "Available for freelance & full-time roles",
+  availability: "Available for freelance work",
   email: "vshnvkmbhr9361@gmail.com",
   phone: "+91-7489122806",
   phoneHref: "tel:+917489122806",

@@ -9,8 +9,7 @@ export default function Contact() {
         Have a project in mind? Let's talk.
       </p>
       <p className="mt-4 leading-relaxed text-zinc-400">
-        I'm open to freelance work and full-time roles. Email is the fastest
-        way to reach me.
+        I'm open to freelance work. Email is the fastest way to reach me.
       </p>
       <a
         href={`mailto:${PROFILE.email}`}
