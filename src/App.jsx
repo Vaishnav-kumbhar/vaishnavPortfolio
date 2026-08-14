@@ -1,36 +1,27 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import Education from "./components/Education";
-import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import ScrollToTop from "./utils/scrollToTop";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
-        <Navbar />
-        <main className="pt-20">
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="min-h-screen bg-zinc-950 text-zinc-400 antialiased">
+      <Navbar />
+      <main className="max-w-2xl mx-auto px-6 pt-32 pb-24 space-y-20 sm:space-y-24 animate-fade-in">
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Education />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }
